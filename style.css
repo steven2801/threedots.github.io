@@ -31,6 +31,10 @@ header {
     cursor: pointer;
 }
 
+.mobile {
+    display: none
+}
+
 .logo-container h4 {
     font-size: small;
     font-weight: 600;
@@ -43,7 +47,7 @@ nav {
     justify-content: flex-end;
 }
 
-nav a {
+.link {
     text-decoration: none;
     color: black;
     font-size: small;
@@ -53,7 +57,7 @@ nav a {
     margin-left: 30px;
 }
 
-nav a:hover {
+.link:hover {
     font-size: medium;
     padding-top: 15px;
     border-top: 4px solid black;
@@ -172,5 +176,53 @@ footer a:hover {
 
     100% {
         opacity: 1;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+    }
+
+    .mobile-link {
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+
+    .mobile-left {
+        margin-right: 30px;
+    }
+
+    .left {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    .buttons {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+
+    .right {
+        width: 60%;
+        margin: 30px auto;
     }
 }
