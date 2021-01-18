@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <title>Responsive Web</title>
+</head>
+<body>
+    <div class="white-block"></div>
+    <header>
+        <div class="logo-container">
+            <img src="img/logo.svg" alt="logo">
+            <h4>Three Dots</h4>
+        </div>
+        <nav>
+            <div><a href="#">Specs</a></div>
+            <div><a href="#">Services</a></div>
+            <div><a href="#">Contact</a></div>
+            <div><a href="#">More</a></div>
+        </nav>
+        <div class="cart">
+            <img src="img/cart.svg" alt="">
+        </div>
+    </header>
+
+    <main>
+        <div class="left">
+            <div class="content">
+                <div>
+                    <h1>Laptop for the future</h1>
+                    <p>The new 14 inch bezeless display offering a 4k display with touch screen.</p>
+                </div>
+                <div class="buttons">
+                    <a class="inch-btn" href="/">14 inch</a>
+                    <a class="add-btn" href="/">Add To Cart +</a>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="img-container">
+                <img src="img/matebook.png" alt="">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>visit us on <a href="/">www.threedots.com</a></p>
+        </div>
+    </footer>
+</body>
+</html>
